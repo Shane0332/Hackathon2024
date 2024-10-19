@@ -47,9 +47,9 @@
               class="absolute right-0 z-10 mt-3 w-48 rounded-md border bg-background focus:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
               <div class="border-b px-3 py-1.5 text-sm">
-                <p class="font-semibold">Hello John</p>
+                <p class="font-semibold">Сайн уу Балжинням</p>
                 <a href="mailto:johndoe@test.com" class="leading-none text-muted-foreground"
-                  >johndoe@test.com</a
+                  >Baljinnyam@gmail.com</a
                 >
               </div>
               <div class="p-1">
@@ -83,13 +83,12 @@
 
   // Items that will be displayed in menu
   const profileMenuOptions = [
-    { title: "Profile" },
-    { title: "Billing" },
-    { title: "Settings" },
-    { title: "Team members" },
-    { title: "Sales" },
+    { title: "Нүүр" },
+    { title: "Захиалга" },
+    { title: "Тохиргоо" },
+    { title: "Засах" },
     { divider: true },
-    { title: "Logout" },
+    { title: "Гарах" },
   ];
 
   // Used to open/close menu

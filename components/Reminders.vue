@@ -8,7 +8,7 @@
           <div class="mt-5 flex items-center justify-between">
             <div class="flex items-center gap-3">
               <Icon name="heroicons:check-circle" class="h-4 w-4 text-muted-foreground" />
-              <span class="text-sm">{{ r.title }}</span>
+              <span :class="{'font-bold underline text-blue-500': r.title === '105-р сургууль', 'text-sm': true}">{{ r.title }}</span>
             </div>
             <span class="text-sm text-muted-foreground">{{ r.time }}</span>
           </div>
@@ -20,9 +20,9 @@
 
 <script setup lang="ts">
   const reminders = [
-    { title: "1-сургууль", time: "" },
-    { title: "2-р сургууль", time: "" },
-    { title: "3-р сургууль", time: "" },
+    { title: "105-р сургууль", time: "" },
+    { title: "104-р сургууль", time: "" },
+    { title: "151-р сургууль", time: "" },
     { title: "4-р сургууль", time: "" },
   ];
 </script>
